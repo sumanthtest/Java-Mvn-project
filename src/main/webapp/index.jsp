@@ -2,88 +2,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample HTML Page with Colors</title>
+    <title>Simple HTML Page</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
+            margin: 20px;
             color: #333;
         }
-        header {
-            background-color: #4CAF50; /* Green background */
-            color: white;
-            padding: 15px;
-            text-align: center;
-            border-bottom: 5px solid #388E3C; /* Darker green border */
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        nav ul li a:hover {
-            text-decoration: underline;
-        }
-        section {
-            padding: 20px;
-            margin: 0 15px;
-        }
-        #home {
-            background-color: #f0f8ff; /* AliceBlue background */
-        }
-        #about {
-            background-color: #e6e6fa; /* Lavender background */
-        }
-        #contact {
-            background-color: #fffacd; /* LemonChiffon background */
-        }
-        footer {
-            background-color: #4CAF50; /* Green background */
-            color: white;
-            padding: 15px;
-            text-align: center;
-            border-top: 5px solid #388E3C; /* Darker green border */
+        h1 {
+            color: #4CAF50; /* Green color */
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section id="home">
-        <h2>Home</h2>
-        <p>This is the home section of the webpage. You can include some introductory content here.</p>
-    </section>
-    
-    <section id="about">
-        <h2>About</h2>
-        <p>This section is for information about you or your website. You can provide details about your background or purpose here.</p>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Include contact information here or a contact form for visitors to reach out to you.</p>
-    </section>
-    
-    <footer>
-        <p>&copy; 2024 Your Website Name. All rights reserved.</p>
-    </footer>
+    <h1>Welcome to My Simple Page</h1>
+    <p>This is a small HTML document with a heading and a paragraph. Feel free to modify it!</p>
 </body>
 </html>
+Components:
+<!DOCTYPE html>: Declares the document type.
+<html>: Root element of the document.
+<head>: Contains meta-information, including the title and style.
+<meta charset="UTF-8">: Sets the character encoding to UTF-8.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: Ensures proper scaling on different devices.
+<title>: Sets the title of the page, shown in the browser tab.
+<style>: Adds some basic CSS for styling.
+<body>: Contains the visible content of the page.
+<h1>: Main heading.
+<p>: Paragraph of text.
+This code will produce a simple web page with a green heading and a paragraph. Feel free to customize it further!
+
+
+
+
+
+
+
+
+
